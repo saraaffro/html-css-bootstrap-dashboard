@@ -137,3 +137,60 @@ header .dropdown{
     height: 100%;
     overflow-y: auto;
 }
+
+#bar-section{
+    background-color: #1b72e8;
+    color: white;
+}
+
+.boolean-section{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.online-students, .new-student{
+    padding: 20px 0;
+}
+
+.number-student{
+    font-size: 25px;
+}
+
+.img-avatar-container{
+    width: 30px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.img-avatar-container img{
+    width: 100%;
+    background-color: white;
+}
+
+.label{
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 5px 0;
+    width: 50px;
+}
+
+.done{
+    background-color: #198754;
+}
+
+.fa-trash, .fa-pencil{
+    color: #6c757d;
+    padding: 5px;
+    margin: 0 3px;
+    border: 1px solid #6c757d;
+    border-radius: 3px;
+}
+
+.ms_hidden{
+    display: none;
+}

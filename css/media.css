@@ -1,5 +1,8 @@
 /* TABLET VERSION */
 @media all and (min-width: 768px){
+    .ms_hidden{
+        display: table-cell;
+    }
 
 }
 
