@@ -16,8 +16,6 @@ header{
     width: 100%;
     height: calc(100vh - 80px);
     display: flex;
-    /* debug */
-    background-color: aqua;
 }
 
 /* sidebar */
@@ -27,23 +25,49 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* debug */
-    background-color: blue;
+    background-color: #051e34;
 }
 
 .site-section{
     width: 100%;
-    /* debug */
+    margin: 10px 0;
+    /* debug
     background-color: black;
-    min-height: 300px;
+    min-height: 400px; */
+}
+
+.site-section-container a{
+    color: white;
+    text-decoration: none;
+}
+
+.site-section-container:hover{
+    background-color: lightgrey;
+    padding: 2px;
+}
+
+.site-section-container{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.text-site-section{
+    display: none;
+    padding-left: 15px;
+}
+
+.main-icons{
+    font-size: 20px;
 }
 
 .settings{
     width: 100%;
     /* debug */
-    background-color: violet;
-    min-height: 100px;
+    /* background-color: violet;
+    min-height: 90px; */
 }
+
+
 /* main-content */
 #main-content{
     flex-grow: 1;
@@ -54,8 +78,8 @@ header{
 }
 
 /* debug */
-[class*="col-"]{
+/* [class*="col-"]{
     background-color: aqua;
     min-height: 100px;
     margin-bottom: 30px;
-}
+} */

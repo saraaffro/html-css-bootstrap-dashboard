@@ -8,4 +8,8 @@
     #sidebar{
         width: 150px;
     }
+
+    .text-site-section{
+        display: inline-block;
+    }
 }
