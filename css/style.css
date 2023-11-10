@@ -12,6 +12,7 @@ header{
 .logo-container{
     width: 70px;
     padding: 10px;
+    margin-left: 10px;
 }
 
 .logo-container img{
@@ -135,13 +136,4 @@ header .dropdown{
     flex-grow: 1;
     height: 100%;
     overflow-y: auto;
-    /* debug */
-    background-color: pink;
 }
-
-/* debug */
-/* [class*="col-"]{
-    background-color: aqua;
-    min-height: 100px;
-    margin-bottom: 30px;
-} */
