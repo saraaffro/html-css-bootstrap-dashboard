@@ -1,0 +1,61 @@
+/* stili generali */
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* stili header */
+header{
+    height: 80px;
+    width: 100%;
+    /* debug */
+    background-color: bisque;
+}
+
+/* stili main */
+#main-wrapper{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    /* debug */
+    background-color: aqua;
+}
+
+/* sidebar */
+#sidebar{
+    width: 70px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* debug */
+    background-color: blue;
+}
+
+.site-section{
+    width: 100%;
+    /* debug */
+    background-color: black;
+    min-height: 300px;
+}
+
+.settings{
+    width: 100%;
+    /* debug */
+    background-color: violet;
+    min-height: 100px;
+}
+/* main-content */
+#main-content{
+    flex-grow: 1;
+    height: 100%;
+    overflow-y: auto;
+    /* debug */
+    background-color: pink;
+}
+
+/* debug */
+[class*="col-"]{
+    background-color: aqua;
+    min-height: 100px;
+    margin-bottom: 30px;
+}

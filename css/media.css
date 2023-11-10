@@ -1,0 +1,11 @@
+/* TABLET VERSION */
+@media all and (min-width: 768px){
+
+}
+
+/* DESKTOP VERSION */
+@media all and (min-width: 992px){
+    #sidebar{
+        width: 150px;
+    }
+}
