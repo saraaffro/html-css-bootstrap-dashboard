@@ -156,6 +156,28 @@ header .dropdown{
     font-size: 25px;
 }
 
+#classes, #faq{
+    border: 1px solid #eef0f2;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+#classes h5, #faq h5{
+    padding: 20px 15px;
+    border-bottom: 1px solid #eef0f2;
+    font-size: 25px;
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 0 0;
+}
+
+.ms_table{
+    padding: 15px;
+}
+
+.table > :not(:last-child) > :last-child > * {
+    border-bottom-color: inherit; 
+}
+
 .img-avatar-container{
     width: 30px;
     background-color: white;
@@ -183,6 +205,14 @@ header .dropdown{
     background-color: #198754;
 }
 
+.failed{
+    background-color: #dc3545;
+}
+
+.process{
+    background-color: #ffc107;
+}
+
 .fa-trash, .fa-pencil{
     color: #6c757d;
     padding: 5px;
@@ -193,4 +223,13 @@ header .dropdown{
 
 .ms_hidden{
     display: none;
+}
+
+.ms_faq{
+    padding: 0 15px;
+}
+
+.ms_faq .accordion-item{
+    border: none;
+    border-bottom: 1px solid #eef0f2;
 }
