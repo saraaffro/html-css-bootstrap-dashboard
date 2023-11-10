@@ -5,16 +5,84 @@
 
 /* stili header */
 header{
-    height: 80px;
+    height: 70px;
     width: 100%;
-    /* debug */
-    background-color: bisque;
+}
+
+.logo-container{
+    width: 70px;
+    padding: 10px;
+}
+
+.logo-container img{
+    width: 100%;
+}
+
+.logo-large-container{
+    display: none;
+    width: 150px;
+    margin: 20px;
+}
+
+.logo-large-container img{
+    width: 100%;
+}
+
+nav .d-flex{
+    width: 100%;
+}
+
+nav .form-control{
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.d-flex a{
+    color: black;
+    text-decoration: none;
+}
+
+.fa-magnifying-glass{
+    background-color: #e5e5e5;
+    border-radius: 10px 0 0 10px;
+}
+
+.header-icons{
+    font-size: 20px;
+    padding: 8px;
+}
+
+.fa-bell{
+    color: #ff8f00;
+    text-align: center;
+}
+
+.header-icons-desktop{
+    display: none;
+}
+
+.header-icons-desktop a{
+    color:#5b5858;
+}
+
+header .dropdown{
+    display: inline;
+    height: 20px;
+}
+
+.dropdown .btn{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    width: 35px;
 }
 
 /* stili main */
 #main-wrapper{
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
     display: flex;
 }
 
@@ -31,9 +99,6 @@ header{
 .site-section{
     width: 100%;
     margin: 10px 0;
-    /* debug
-    background-color: black;
-    min-height: 400px; */
 }
 
 .site-section-container a{
@@ -62,9 +127,6 @@ header{
 
 .settings{
     width: 100%;
-    /* debug */
-    /* background-color: violet;
-    min-height: 90px; */
 }
 
 

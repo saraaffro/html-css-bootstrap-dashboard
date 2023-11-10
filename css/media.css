@@ -12,4 +12,16 @@
     .text-site-section{
         display: inline-block;
     }
+
+    .logo-container{
+        display: none;
+    }
+
+    .logo-large-container{
+        display: inline-block;
+    }
+
+    .header-icons-desktop{
+        display: inline-block;
+    }
 }

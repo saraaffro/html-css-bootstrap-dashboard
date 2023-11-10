@@ -22,11 +22,45 @@
 <body>
     <!-- header -->
     <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-9 col-lg-8"></div>
-                <div class="col-1 col-lg-2"></div>
+        <div class="container-fluid p-0">
+            <div class="row align-items-center">
+                <div class="col-1 col-lg-2 p-s-1">
+                    <div class="logo-container">
+                        <img src="img/mobile-logo.png" alt="logo Boolean">
+                    </div>
+                    <div class="logo-large-container">
+                        <img src="img/logo.svg" alt="logo Boolean">
+                    </div>
+                </div>
+                <div class="col-10 p0 col-lg-8 p-0">
+                    <!-- importata da BT -->
+                    <nav class="navbar bg-body-tertiary">
+                        <div class="container-fluid">
+                          <form class="d-flex" role="search">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass header-icons"></i></a>
+                            <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                          </form>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col-1 col-lg-2 p-0">
+                    <div class="header-icons-desktop">
+                        <a href="#"><i class="fa-solid fa-list-ul header-icons"></i></a>
+                        <a href="#"><i class="fa-solid fa-circle-question header-icons"></i></a>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical header-icons"></i></a>
+                    </div>
+                    <!-- importato da BT -->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            <i class="fa-solid fa-bell header-icons"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                </div>
             </div>
         </div>
     </header>
@@ -76,7 +110,11 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </main>
+
+    <!-- inclusione js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
