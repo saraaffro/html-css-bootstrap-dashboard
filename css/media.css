@@ -9,7 +9,7 @@
 /* DESKTOP VERSION */
 @media all and (min-width: 992px){
     #sidebar{
-        width: 150px;
+        width: 300px;
     }
 
     .text-site-section{
@@ -26,5 +26,13 @@
 
     .header-icons-desktop{
         display: inline-block;
+    }
+
+    .blaze-label.first-hidden{
+        display: inline-block;
+    }
+
+    .blaze-label.hidden{
+        display: none;
     }
 }
