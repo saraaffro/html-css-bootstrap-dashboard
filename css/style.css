@@ -101,6 +101,7 @@ header .dropdown{
 
 .site-section{
     margin: 10px 0;
+    width: 100%;
 }
 
 .site-section-container a{
@@ -116,7 +117,8 @@ header .dropdown{
 
 .site-section-container{
     text-align: center;
-    margin: 10px 30px;
+    width: 100%;
+    margin: 20px 0;
 }
 
 .text-site-section{
@@ -126,6 +128,7 @@ header .dropdown{
 
 .main-icons{
     font-size: 20px;
+    padding: 5px;
 }
 
 

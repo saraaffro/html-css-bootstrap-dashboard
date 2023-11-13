@@ -3,7 +3,6 @@
     .ms_hidden{
         display: table-cell;
     }
-
 }
 
 /* DESKTOP VERSION */
@@ -26,6 +25,11 @@
 
     .header-icons-desktop{
         display: inline-block;
+    }
+
+    .site-section-container{
+        margin: 10px 30px;
+        width: auto;
     }
 
     .blaze-label.first-hidden{
