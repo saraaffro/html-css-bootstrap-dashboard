@@ -89,7 +89,7 @@ header .dropdown{
 
 /* sidebar */
 #sidebar{
-    width: 70px;
+    min-width: 70px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -100,23 +100,23 @@ header .dropdown{
 }
 
 .site-section{
-    width: 100%;
     margin: 10px 0;
 }
 
 .site-section-container a{
     color: white;
     text-decoration: none;
+    padding: 5px;
 }
 
 .site-section-container:hover{
-    background-color: lightgrey;
-    padding: 2px;
+    background-color: #808e9a;
+    padding: 0px;
 }
 
 .site-section-container{
     text-align: center;
-    margin: 25px 0;
+    margin: 10px 30px;
 }
 
 .text-site-section{
@@ -126,10 +126,6 @@ header .dropdown{
 
 .main-icons{
     font-size: 20px;
-}
-
-.settings{
-    width: 100%;
 }
 
 
@@ -160,7 +156,7 @@ header .dropdown{
     font-size: 13px;
 }
 
-.fa-greater-than{
+.fa-angles-right{
     font-size: 12px;
 }
 
@@ -177,17 +173,13 @@ header .dropdown{
     border-color: white;
 }
 
-.new-student .btn{
-    font-size: 2rem;
-}
-
 .new-student .offcanvas-header{
     color: black;
     text-align: left;
 }
 
 .new-student .offcanvas-end{
-    width: 600px;
+    width: 100%;
 }
 
 .new-student form{

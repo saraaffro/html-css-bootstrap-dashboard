@@ -35,4 +35,8 @@
     .blaze-label.hidden{
         display: none;
     }
+
+    .new-student .offcanvas-end{
+        width: 600px;
+    }
 }
