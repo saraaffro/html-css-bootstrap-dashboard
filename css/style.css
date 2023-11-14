@@ -151,6 +151,11 @@ header .dropdown{
     margin: 20px 0;
 }
 
+.boolean-section a{
+    color: white;
+    text-decoration: none;
+}
+
 .blaze-label{
     display: inline-block;
     border-radius: 20px;
@@ -281,6 +286,10 @@ header .dropdown{
     margin: 0 3px;
     border: 1px solid #6c757d;
     border-radius: 3px;
+}
+
+.fa-pencil:hover, .fa-trash:hover{
+    background-color: #b6bcc2b1;
 }
 
 .ms_hidden{
